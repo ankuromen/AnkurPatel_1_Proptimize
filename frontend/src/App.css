@@ -1,0 +1,49 @@
+body{
+    background-color: #fffaf0;
+}
+.Heading-tittle{
+    text-align: center;
+    color: #00cc99;
+    font-weight: bold;
+}
+.Filter-labels{
+    color:red;
+    font-size: x-large;
+    margin-left: 8em;
+}
+.Filter-input-Box{
+    width: 10em;
+    height: 3em;
+    border-radius:7px; ;
+    text-align: center;
+    background-color: transparent;
+}
+.Filter-input-Box:hover{
+    background-color: black;
+    color: white;
+}
+.Content-table{
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 3em;
+    border-collapse:collapse ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-size:x-large;
+    font-family:sans-serif;
+}
+.Content-table-Head{
+    background-color:#00cc99;
+    color: white;
+    height: 2em;
+   
+}
+.Content-table-Row{
+    height: 2em;
+    border: 1px solid darkgrey;
+ 
+}
+.Content-table-Row:nth-child(even){
+    background-color: #f5f5f0;
+    
+}
